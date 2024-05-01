@@ -1,0 +1,262 @@
+
+#popularProducts{
+    width: 100%;
+    height: auto;
+    display: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popularProductsText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.popularProductsText .popularProductsTextt{
+    width: 30%;
+    height: auto;
+    display: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popularProductsText .popularProductsTextt span{
+    font-size: 15px;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popularProductsText .popularProductsTextt h4{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.popularProductsText .popularProductsTextt p{
+    font-size: 15px;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popularProductsCards{
+    width: 100%;
+    height: auto;
+    display: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardOne{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.popularProductsCards .cardOne .productCard{
+    width: 20%;
+    height: auto;
+}
+
+.popularProductsCards .cardOne .productCard .productCardImage{
+    width: 100%;
+    height: auto;
+}
+
+.popularProductsCards .cardOne .productCard .productCardImage img{
+    width: 100%;
+}
+
+.cardTwo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.popularProductsCards .cardTwo .productCard{
+    width: 20%;
+    height: auto;
+}
+
+.popularProductsCards .cardTwo .productCard .productCardImage{
+    width: 100%;
+    height: auto;
+}
+
+.popularProductsCards .cardTwo .productCard .productCardImage img{
+    width: 100%;
+}
+
+.popularProductsCards .cardOne .productCardText {
+    width: 100%;
+    height: auto;
+    display: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popularProductsCards .cardOne .productCardText h5{
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularProductsCards .cardOne .productCardText span{
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularProductsCards .cardOne .productCardText span i{
+    margin: 10px;
+}
+
+.popularProductsCards .cardOne .productCardText span i:hover{
+    cursor: pointer;
+}
+
+.popularProductsCards .cardOne .productCardText span i .fa-solid fa-heart{
+    color: red;
+}
+
+.popularProductsCards .cardOne .productCardText p{
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularProductsCards .cardOne .productCardText button {
+    font-size: 15px ;
+    padding: 5px 10px;
+    margin: 20px;
+}
+
+.popularProductsCards .cardOne .productCardText .prdctBtnOne{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transform: 1s;
+}
+
+.popularProductsCards .cardOne .productCardText .prdctBtnTwo{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transform: 1s;
+}
+
+.popularProductsCards .cardOne .productCardText .prdctBtnOne:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.popularProductsCards .cardOne .productCardText .prdctBtnTwo:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.popularProductsCards .cardTwo .productCardText {
+    width: 100%;
+    height: auto;
+    display: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popularProductsCards .cardTwo .productCardText h5{
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularProductsCards .cardTwo .productCardText span{
+    font-size: 15px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularProductsCards .cardTwo .productCardText span i{
+    pad: 10px ;
+    margin: 10px;
+}
+
+.popularProductsCards .cardTwo .productCardText span i:hover{
+    cursor: pointer;
+}
+
+.popularProductsCards .cardTwo .productCardText span i .fa-solid fa-heart{
+    color: red;
+}
+
+.popularProductsCards .cardTwo .productCardText p{
+    font-size: 15px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularProductsCards .cardTwo .productCardText button {
+    font-size: 15px ;
+    padding: 5px 10px;
+    margin: 20px;
+}
+
+.popularProductsCards .cardTwo .productCardText .prdctBtnOne{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transform: 1s;
+}
+
+.popularProductsCards .cardTwo .productCardText .prdctBtnTwo{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transform: 1s;
+}
+
+.popularProductsCards .cardTwo .productCardText .prdctBtnOne:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.popularProductsCards .cardTwo .productCardText .prdctBtnTwo:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+}

@@ -1,0 +1,67 @@
+
+.shopclub{
+    background-image: url(https://preview.colorlib.com/theme/selling/images/hero_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+}
+
+.container .shopclubtext{
+    width: 55%;
+    font-size: 30px;
+    color: white;
+
+}
+
+.container .shopclubtext h1{
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+.container .shopclubtext p{
+    font-size: 20px;
+    margin-bottom: 40px ;
+}
+
+.container .shopclubtext .one{
+    padding: 20px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transform: 1s;
+}
+
+.container .shopclubtext .two{
+    padding: 20px 30px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transform: 1s;
+}
+
+.container .shopclubtext button:hover{
+    cursor: pointer;
+}
+
+.container .shopclubtext .one:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.container .shopclubtext .two:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: 1s;
+}
